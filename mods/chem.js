@@ -2891,7 +2891,7 @@ elements.liquid_argon = {
     density: 1207,
     state: "liquid",
     conduct: 0.83
-},
+}
 
 elements.boron_trichloride = {
     color: "#ddf0dd",
