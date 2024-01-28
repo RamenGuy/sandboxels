@@ -16,7 +16,7 @@ function whenAvailable(names, callback) {
         }
     }, interval);
 }
-var modName = "mods/argonMod.js";
+var modName = "mods/ArgonMod.js";
 whenAvailable(["runAfterAutogen"], function() {
 
     elements.argon = { 
@@ -29,7 +29,7 @@ whenAvailable(["runAfterAutogen"], function() {
         density: 0.9002,
         state: "gas",
         conduct: 0.86,
-    };
+    }
     
     elements.liquid_argon = {
         color: "#d1d1d1",
@@ -44,5 +44,5 @@ whenAvailable(["runAfterAutogen"], function() {
         density: 1207,
         state: "liquid",
         conduct: 0.83,
-    };
+    }
 });
