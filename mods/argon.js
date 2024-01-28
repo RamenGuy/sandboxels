@@ -1,15 +1,15 @@
 elements.argon = { 
-	color: "#bababa",
-	behavior: behaviors.GAS,
-	category: "gases",
-	density: 0.9002,
-	state: "gas",
-	tempLow: -246,
-	stateLow: "liquid_argon",
-	colorOn: ["#ffaff8","#df88fc","#f842ff"],
-	conduct: 0.86
-
+    color: "#bababa",
+    behavior: behaviors.GAS,
+    colorOn: ["#ffaff8","#df88fc","#f842ff"],
+    tempLow: -246,
+    stateLow: "liquid_argon",
+    category: "gases",
+    density: 0.9002,
+    state: "gas",
+    conduct: 0.86,
 };
+
 elements.liquid_argon = {
     color: "#d1d1d1",
     behavior: behaviors.LIQUID,
@@ -22,5 +22,5 @@ elements.liquid_argon = {
     hidden: true,
     density: 1207,
     state: "liquid",
-    conduct: 0.83
+    conduct: 0.83,
 };
