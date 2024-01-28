@@ -9,7 +9,7 @@ elements.argon = {
 	colorOn: ["#ffaff8","#df88fc","#f842ff"],
 	conduct: 0.86
 
-}
+};
 elements.liquid_argon = {
     color: "#d1d1d1",
     behavior: behaviors.LIQUID,
@@ -23,4 +23,4 @@ elements.liquid_argon = {
     density: 1207,
     state: "liquid",
     conduct: 0.83
-}
+};
